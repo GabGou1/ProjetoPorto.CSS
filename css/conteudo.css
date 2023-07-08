@@ -1,0 +1,25 @@
+.alinhamento{
+    display: flex;
+    position: absolute;
+    right: 0;
+    width: 82%;
+    flex-direction: column;
+}
+
+.sobre{
+    background-color: rgb(110, 0, 0);
+    padding: 8px;
+    flex: 1;
+}
+
+.jornada{
+    background-color: yellowgreen;
+    padding: 8px;
+    flex: 1;
+}
+
+.networking{
+    background-color: aqua;
+    padding: 8px;
+    flex: 2;
+}
