@@ -1,9 +1,12 @@
 .alinhamento{
     display: flex;
-    position: absolute;
+    height: 100%;
     right: 0;
     width: 82%;
+    position: absolute;
     flex-direction: column;
+    top: 0;
+    right: 0;
 }
 
 .sobre{

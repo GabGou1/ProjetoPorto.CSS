@@ -4,29 +4,32 @@
     margin: 0;
 }
 
+body{
+    height: 100vh;
+    background-color: black;
+}
+
 .ftnm{
     background-color: red;
     padding: 8px;
-    height: 100%;
+    min-height: 100vh;
     width: 18%;
     position: fixed;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    flex: 1;
 }
 
 .ft{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 8px;
-    margin: 8px;
-}
-.ft img{
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    background-image: url("https://i.pinimg.com/564x/bc/08/9b/bc089bbbfee196b0e71e2570608e0f9d.jpg");
+    background-size: cover;
+    background-position: end;
     border-radius: 50%;
     overflow: hidden;
-    width: 100%;
+    margin-bottom: 16px;
 }
 
 .nm{
@@ -35,7 +38,7 @@
     align-items: center;
     justify-content: center;
     padding: 8px;
-    margin: 8px;
+    margin: 16px;
 }
 
 .git{
@@ -44,7 +47,7 @@
     align-items: center;
     justify-content: center;
     padding: 8px;
-    margin: 8px;
+    margin: 16px;
 }
 .git a{
     color: white;
