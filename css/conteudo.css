@@ -1,4 +1,5 @@
 .alinhamento{
+    color: white;
     display: flex;
     height: 100%;
     right: 0;
@@ -10,19 +11,16 @@
 }
 
 .sobre{
-    background-color: rgb(110, 0, 0);
     padding: 8px;
     flex: 1;
 }
 
 .jornada{
-    background-color: yellowgreen;
     padding: 8px;
     flex: 1;
 }
 
 .networking{
-    background-color: aqua;
     padding: 8px;
     flex: 2;
 }
