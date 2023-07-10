@@ -6,11 +6,15 @@
 
 body{
     height: 100vh;
-    background-color: rgb(86, 87, 97);
+    background-color: rgb(2, 0, 14);
+}
+
+body h2{
+    font-family: 'PT Serif', serif;
 }
 
 .ftnm{
-    background-color: rgb(41, 41, 41);
+    background-image: linear-gradient(to right, white, gray, black);
     padding: 8px;
     min-height: 100vh;
     width: 18%;
@@ -61,4 +65,17 @@ body{
 }
 .git a:hover{
     color: blue;
+}
+
+.botaoFlutuante{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+.botaoFlutuante button{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
 }
