@@ -1,4 +1,4 @@
-.alinhamento{
+.alinhamento {
     display: flex;
     height: 100%;
     right: 0;
@@ -10,21 +10,34 @@
     color: white;
 }
 
-.alinhamento p{
-    font-family: 'Belanosima', sans-serif;
+.alinhamento p {
+    font-family: "Belanosima", sans-serif;
 }
 
-.sobre{
+.sobre {
     padding: 8px;
     flex: 1;
 }
 
-.jornada{
+.jornada {
     padding: 8px;
     flex: 1;
 }
 
-.networking{
+.networking {
     padding: 8px;
     flex: 2;
+}
+
+.sobre p,
+span {
+    padding-left: 20px;
+}
+
+.jornada p {
+    padding-left: 20px;
+}
+
+.networking p {
+    padding-left: 20px;
 }
