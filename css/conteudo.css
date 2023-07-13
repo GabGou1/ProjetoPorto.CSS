@@ -1,7 +1,5 @@
 .alinhamento {
     display: flex;
-    height: 100%;
-    right: 0;
     width: 82%;
     position: absolute;
     flex-direction: column;
@@ -37,7 +35,26 @@ span {
 .jornada p {
     padding-left: 20px;
 }
+.jornada ul {
+    margin-left: 50px;
+    font-family: "Belanosima", sans-serif;
+}
 
 .networking p {
     padding-left: 20px;
+}
+
+.boxImgVid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.boxImgVid img,
+iframe {
+    margin: 12px;
+    width: 350px;
+    height: 250px;
+    border-radius: 16px;
+    object-fit: cover;
 }

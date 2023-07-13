@@ -5,7 +5,6 @@
 }
 
 body {
-    height: 100vh;
     background-color: rgb(2, 0, 14);
 }
 
@@ -20,13 +19,10 @@ body h2 {
     width: 18%;
     position: fixed;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
 }
 
 .ft {
-    position: relative;
-    width: 100%;
     padding-bottom: 100%;
     background-image: url("https://i.pinimg.com/564x/bc/08/9b/bc089bbbfee196b0e71e2570608e0f9d.jpg");
     background-size: cover;
@@ -40,7 +36,6 @@ body h2 {
 .nm {
     background-color: white;
     display: flex;
-    align-items: center;
     justify-content: center;
     padding: 8px;
     margin: 16px;
@@ -50,7 +45,6 @@ body h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     padding: 8px;
     margin: 16px;
 }
@@ -71,13 +65,7 @@ body h2 {
     bottom: 20px;
     right: 20px;
     z-index: 9999;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50px;
-    height: 50px;
     background-color: rgb(88, 88, 88);
-    border: none;
     border-radius: 50%;
     overflow: hidden;
 }
@@ -88,14 +76,12 @@ body h2 {
     background-color: rgb(88, 88, 88);
 }
 
-.botaoFlutuante :hover {
+.botaoFlutuante:hover button {
     background-color: white;
     color: rgb(88, 88, 88);
 }
 
-.botao-flutuante {
-    width: 50px;
-    height: 50px;
+.icone {
     background-color: rgb(88, 88, 88);
     display: flex;
     align-items: center;
