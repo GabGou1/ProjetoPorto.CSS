@@ -9,7 +9,7 @@ body {
 }
 
 body h2 {
-    font-family: "PT Serif", serif;
+    font-family: "Belanosima", sans-serif;
 }
 
 .ftnm {
@@ -48,14 +48,17 @@ body h2 {
     padding: 8px;
     margin: 16px;
 }
+
 .git a {
     color: white;
 }
+
 .git img {
     border-radius: 50%;
     overflow: hidden;
     width: 30%;
 }
+
 .git a:hover {
     color: blue;
 }

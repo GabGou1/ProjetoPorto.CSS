@@ -1,60 +1,62 @@
 .alinhamento {
-    display: flex;
-    width: 82%;
-    position: absolute;
-    flex-direction: column;
-    top: 0;
-    right: 0;
-    color: white;
+  display: flex;
+  width: 82%;
+  position: absolute;
+  flex-direction: column;
+  top: 0;
+  right: 0;
+  color: white;
 }
 
 .alinhamento p {
-    font-family: "Belanosima", sans-serif;
+  font-family: "Belanosima", sans-serif;
 }
 
 .sobre {
-    padding: 8px;
-    flex: 1;
+  padding: 8px;
+  flex: 1;
 }
 
 .jornada {
-    padding: 8px;
-    flex: 1;
+  padding: 8px;
+  flex: 1;
 }
 
 .networking {
-    padding: 8px;
-    flex: 2;
+  padding: 8px;
+  flex: 2;
 }
 
 .sobre p,
 span {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 .jornada p {
-    padding-left: 20px;
+  padding-left: 20px;
 }
+
 .jornada ul {
-    margin-left: 50px;
-    font-family: "Belanosima", sans-serif;
+  margin-left: 50px;
+  font-family: "Belanosima", sans-serif;
 }
 
 .networking p {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 .boxImgVid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
+
 .boxImgVid img,
 iframe {
-    margin: 12px;
-    width: 350px;
-    height: 250px;
-    border-radius: 16px;
-    object-fit: cover;
+  margin: 12px;
+  width: 350px;
+  height: 250px;
+  border-radius: 16px;
+  object-fit: cover;
 }
