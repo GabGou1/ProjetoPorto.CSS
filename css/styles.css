@@ -1,0 +1,166 @@
+/* Configuração básica */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Belanosima", sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Estilização do header */
+header {
+    background-image: linear-gradient(to right, gray, black);
+    padding: 8px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+header img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    overflow: hidden;
+    object-position: center top;
+    margin: 16px;
+}
+.name {
+    background-color: white;
+    text-align: center;
+    margin: 8px;
+    padding-right: 8px;
+    padding-left: 8px;
+    font-weight: bold;
+}
+.github {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.github a {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+}
+.github img {
+    height: 50px;
+    width: 50px;
+}
+.github a:hover {
+    color: gray;
+}
+
+/* Estilização do main */
+main {
+    background-image: linear-gradient(to left, rgb(2, 0, 14), black);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    flex: 4;
+}
+main::-webkit-scrollbar {
+    width: 0;
+    background-color: transparent;
+}
+.container1,
+.container2 {
+    padding: 8px;
+    flex: 1;
+}
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    flex: 2;
+}
+.container3 img,
+iframe, .carousel {
+  margin: 12px;
+  width: 350px;
+  height: 250px;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+/* Estilização do footer */
+footer{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  background-color: rgb(88, 88, 88);
+  border-radius: 50%;
+  overflow: hidden;
+}
+footer button{
+  width: 50px;
+  height: 50px;
+  background-color: rgb(88, 88, 88);
+}
+footer:hover button{
+  background-color: white;
+  color: rgb(88, 88, 88); 
+}
+.icone {
+  background-color: rgb(88, 88, 88);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  font-size: 24px;
+}
+
+@media (max-width: 992px) {
+    /* Estilizando o corpo principal */
+    body {
+        flex-direction: column;
+    }
+    header {
+        background-image: linear-gradient(to bottom, gray, black);
+        padding: 4px;
+    }
+    main {
+        background-image: linear-gradient(to top, rgb(2, 0, 14), black);
+    }
+
+    /* Estilização do header */
+    header img{
+      width: 150px;
+      height: 150px;
+      margin: 8px;
+    }
+    .name{
+      margin: 4px;
+      padding-right: 4px;
+      padding-left: 4px;
+    }
+    .github a{
+      font-size: 14px;
+    }
+    .github img {
+      height: 30px;
+      width: 30px;
+  }
+
+    /* Estilização do main */
+    .container1,
+    .container2 {
+        flex: 2;
+    }
+    .container3 {
+        flex: 1;
+    }
+}
